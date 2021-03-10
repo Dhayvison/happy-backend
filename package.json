@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "ts-node-dev --transpile-only src/server.ts",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
-    "lint": "eslint .",  
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
