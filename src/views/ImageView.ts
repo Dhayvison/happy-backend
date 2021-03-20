@@ -4,7 +4,7 @@ export default {
   render(image: Image) {
     return {
       id: image.id,
-      path: `http://10.0.0.7:3333/uploads/${image.path}`,
+      path: `https://nlw3-happy-backend.herokuapp.com/uploads/${image.path}`,
     };
   },
 
